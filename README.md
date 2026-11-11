@@ -54,7 +54,7 @@ Keep `.env.local` private and never expose the database connection string to bro
 - Procedure-level row locks serialize assignment and workflow changes so concurrent actions cannot silently overwrite one another.
 
 
-### College Maintenance Request Database — Logic Guide
+# College Maintenance Request Database — Logic Guide
 
 A practical, copy-and-paste guide for the **PostgreSQL database hosted on Neon**. It explains the views, functions, trigger, and stored procedures in the supplied project SQL files, how to install them, how to verify them, and what should be improved before presenting the project.
 
